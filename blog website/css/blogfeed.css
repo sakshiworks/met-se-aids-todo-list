@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    background-image: url("../images/feed-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y:10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 2rem;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    position: fixed;
+    box-shadow: 2px 3px 8px black;
+    background-color: rgb(252, 236, 218);
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.brand-name{
+    padding-left: 100;
+    font-weight: bold;
+    font-size: 30px;
+    color: gray;
+    margin: 20;
+}
+.menu-items{
+    margin: 10;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.menu-items>li{
+    margin: 15px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition-duration: 0.5s;
+
+}
+.menu-items>li:hover{
+    margin: 15px 20px;
+    text-decoration: underline;
+    scale: 1.3;
+
+}
+.write-button{
+    margin: 18;
+    padding-right: 110;
+}
+.write-button>button{
+    border-radius: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: black;
+    box-shadow: 2px 2px 6px black;
+    color: white;
+    font-weight: bold;
+    transition-duration: 0.5s;
+
+}
+.write-button>button:hover{
+    scale:1.3;
+}
+.write-button>button>i{
+    color: white;
+}
+.write-surface{
+    display: flex;
+    width: 40vw;
+    height: 30vh;
+    background-color: rgb(252, 236, 218);
+    box-shadow: 2px 3px 8px black;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    margin-top: 10vh;
+    overflow: hidden;
+}
+.write-surface:hover{
+    scale: 1.3;
+}
+.write-content{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    font-weight: bold;
+    padding: 10 20;
+    padding-right: 40;
+}
+.write-content>title>p{
+    padding: 10; 
+    transition-duration: 0.5s;
+}
+.write-content>blog>p{
+    padding: 20;
+    text-align: justify;
+}
+.write-img>img{
+    padding: 0 0 0 10;
+
+ }

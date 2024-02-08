@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-do</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/index.css" />
+</head>
+<body>
+    <section class="bg-image"></section>
+    <section class="surface">
+        <section class="head">
+            <section class="button">
+                <button type="button">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                    <a href="#" id="todo-button">To Do</a></button>
+            </section>
+            <section >
+                <p class="title">TODO</p>
+            </section>
+        </section>
+        <section class="body">
+            <ul class="todo-list">
+                <li>Complete Html Learning</li>
+                <li>Complete Html Learning</li>
+                <li>Complete Html Learning</li>
+                <li>Complete Html Learning</li>
+            </ul>
+        </section>
+    </section>
+    <section class="add-todo d-none">
+        <section class="pop-up">
+            <section >
+                <label>todo name<input type="text" placeholder="Enter todo name" id="todo-name"/></label>
+                
+            </section>
+            <section >
+                <label>Decription<input type="text" placeholder="Enter the description"id="todo-description" /></label>
+                
+            </section>
+            <section class="Priority">
+                <select id="priority">
+                    <option>High</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                </select>
+            </section>
+            <section>
+                    <button class="save">Save</button>
+            </section>
+            <section>
+                    <button class="cancel">Cancel</button>
+            </section>
+            <section class="button3">
+                    <button>X</button>
+            </section>
+            
+        </section>
+    </section>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
